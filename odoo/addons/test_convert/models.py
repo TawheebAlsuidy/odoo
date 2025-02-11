@@ -12,6 +12,7 @@ class TestModel(models.Model):
 
     @api.model
     def action_test_date(self, today_date):
+        print('action test date')
         return True
 
     @api.model
